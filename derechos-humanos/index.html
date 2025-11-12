@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web educativa e interactiva sobre Derechos Humanos">
+    <meta name="keywords" content="derechos humanos, educación, interactivo">
+    <meta name="author" content="Tu Nombre">
+    <title>Derechos Humanos - Conoce tus Derechos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🌍 Derechos Humanos</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#que-son">¿Qué son?</a></li>
+                <li><a href="#derechos">Derechos</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="inicio">
+        <h1>Derechos Humanos Universales</h1>
+        <p>Conoce, comprende y defiende tus derechos fundamentales</p>
+    </section>
+
+    <div class="container">
+        <section class="section" id="que-son">
+            <h2>¿Qué son los Derechos Humanos?</h2>
+            <p>Los derechos humanos son derechos inherentes a todos los seres humanos, sin distinción alguna de raza, sexo, nacionalidad, origen étnico, lengua, religión o cualquier otra condición. Estos derechos incluyen el derecho a la vida y a la libertad, la libertad de opinión y de expresión, el derecho al trabajo y la educación, y muchos más.</p>
+            <p style="margin-top: 1rem;">Todos tenemos el derecho de gozar de estos derechos, sin discriminación alguna. Son universales, inalienables e indivisibles.</p>
+        </section>
+
+        <section class="section" id="derechos">
+            <h2>Principales Derechos Humanos</h2>
+            <p>Haz clic en cada tarjeta para conocer más sobre cada derecho:</p>
+            
+            <div class="cards-container">
+                <div class="card" onclick="toggleCard(this)">
+                    <h3>🗣️ Derecho a la Libertad de Expresión</h3>
+                    <div class="card-content">
+                        <p>Toda persona tiene derecho a la libertad de opinión y expresión, sin ser molestada a causa de sus opiniones. Esto incluye el derecho de investigar, recibir y difundir información por cualquier medio.</p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="toggleCard(this)">
+                    <h3>📚 Derecho a la Educación</h3>
+                    <div class="card-content">
+                        <p>Toda persona tiene derecho a la educación. La educación debe ser gratuita, al menos en lo concerniente a la instrucción elemental y fundamental, y debe orientarse hacia el pleno desarrollo de la personalidad humana.</p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="toggleCard(this)">
+                    <h3>⚖️ Derecho a la Igualdad</h3>
+                    <div class="card-content">
+                        <p>Todos los seres humanos nacen libres e iguales en dignidad y derechos, sin distinción de raza, color, sexo, idioma, religión, opinión política o de cualquier otra índole.</p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="toggleCard(this)">
+                    <h3>💼 Derecho al Trabajo</h3>
+                    <div class="card-content">
+                        <p>Toda persona tiene derecho al trabajo, a la libre elección de su empleo, a condiciones equitativas y satisfactorias de trabajo y a la protección contra el desempleo, con igual salario por trabajo igual.</p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="toggleCard(this)">
+                    <h3>🏥 Derecho a la Salud</h3>
+                    <div class="card-content">
+                        <p>Toda persona tiene derecho a un nivel de vida adecuado que le asegure la salud y el bienestar, incluyendo alimentación, vestido, vivienda y asistencia médica y servicios sociales necesarios.</p>
+                    </div>
+                </div>
+
+                <div class="card" onclick="toggleCard(this)">
+                    <h3>🕊️ Derecho a la Vida</h3>
+                    <div class="card-content">
+                        <p>Todo individuo tiene derecho a la vida, a la libertad y a la seguridad de su persona. Este es el derecho fundamental del cual dependen todos los demás derechos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="historia">
+            <h2>Historia de los Derechos Humanos</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">1948</div>
+                    <h3>Declaración Universal de los Derechos Humanos</h3>
+                    <p>La ONU adopta la Declaración Universal de Derechos Humanos, el primer documento que establece los derechos fundamentales que deben protegerse en todo el mundo.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1966</div>
+                    <h3>Pactos Internacionales</h3>
+                    <p>Se adoptan el Pacto Internacional de Derechos Civiles y Políticos y el Pacto Internacional de Derechos Económicos, Sociales y Culturales.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">1989</div>
+                    <h3>Convención sobre los Derechos del Niño</h3>
+                    <p>Se establece el tratado internacional que reconoce los derechos humanos específicos de niños, niñas y adolescentes.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-year">Actualidad</div>
+                    <h3>Protección Continua</h3>
+                    <p>Los derechos humanos siguen siendo defendidos por organizaciones internacionales, gobiernos y sociedad civil en todo el mundo.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="quiz">
+            <h2>Pon a Prueba tus Conocimientos</h2>
+            <div class="quiz-container">
+                <div class="quiz-question">¿En qué año se adoptó la Declaración Universal de los Derechos Humanos?</div>
+                <div class="quiz-options">
+                    <div class="quiz-option" onclick="checkAnswer(this, false)">1945</div>
+                    <div class="quiz-option" onclick="checkAnswer(this, true)">1948</div>
+                    <div class="quiz-option" onclick="checkAnswer(this, false)">1950</div>
+                    <div class="quiz-option" onclick="checkAnswer(this, false)">1960</div>
+                </div>
+                <div class="quiz-result"></div>
+                <button class="btn" onclick="resetQuiz()" style="display: none;" id="resetBtn">Intentar de nuevo</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Derechos Humanos Universales | Proyecto Educativo</p>
+        <p style="margin-top: 0.5rem;">Todos tenemos la responsabilidad de conocer y defender los derechos humanos</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
